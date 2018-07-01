@@ -4,7 +4,7 @@
   "description": "Do you wish you could keep a visual backup of your skin + dye combo before you try out new things? Soon&trade;.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/thelittleblacksmith/gw2-dye-channels#readme",
   "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
     "express": "^4.16.3",
     "isomorphic-unfetch": "^2.0.0",
     "next": "^6.1.1",
+    "node-sass": "^4.9.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "sanitize.css": "^6.0.0"
   }
 }
